@@ -1,0 +1,26 @@
+{
+  "name": "staffsync-hrms",
+  "version": "1.0.0",
+  "description": "StaffSync — Modern Human Resource Management System (MERN Stack)",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "cd server && npm run seed",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "hrms",
+    "human-resource-management",
+    "mern",
+    "react",
+    "express",
+    "mongodb",
+    "tailwind"
+  ],
+  "author": "Yatharth Jaiswal",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
